@@ -1008,7 +1008,7 @@ body{
 .flechas_responsive{
 	display: none;	
 }
-@media(max-width:1400px){
+@media(max-width:1000px){
 	.loading-page{
 	/*cale: 1.7;*/
 	width: 100vw;
