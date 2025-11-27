@@ -1021,15 +1021,21 @@ body{
 
   }
     .name-container {
-	height: 90px !important;
+	height: 120px !important;
 	width: 100% !important;
-
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
 }
 	.logo-name {
-		width: 100vw !important;
-		height: 20rem !important;
-		scale:2;
-		max-width: none !important;
+		width: 400px !important;
+		min-width: 400px !important;
+		max-width: 400px !important;
+		height: 80px !important;
+		min-height: 80px !important;
+		max-height: 80px !important;
+		object-fit: contain !important;
+		flex-shrink: 0 !important;
 		
 	}
 
@@ -1315,13 +1321,15 @@ body{
 }
 .logo-name {
     display: block; 
-    width: 100%; 
+    width: 400px !important; 
+    min-width: 400px !important;
+    max-width: 400px !important;
 	/* -------------------- */
-    max-width: 100vw; 
-    height: auto; 
-    max-height: 10vh; 
-	
-    object-fit: contain; 
+    height: 80px !important; 
+    min-height: 80px !important;
+    max-height: 80px !important; 
+	flex-shrink: 0 !important;
+    object-fit: contain !important; 
 }
 
 
