@@ -1030,7 +1030,7 @@ body{
 		height: 20rem !important;
 		scale:2;
 		max-width: none !important;
-
+		
 	}
 
 	.flechas_responsive{
@@ -1235,7 +1235,10 @@ body{
 }
 
 
-
+.titulo{
+	color: white;
+	margin-top: -1rem;
+}
 .loading-page {
 	position: absolute;
 	top: 0;
@@ -1263,7 +1266,7 @@ body{
     stroke-width: 1px !important;
     stroke-dasharray: 4500;
     animation: draw 20s ease;
-	margin-top: 4rem;
+	margin-top: 1rem;
 	
 }
 .logoEmpresa{
